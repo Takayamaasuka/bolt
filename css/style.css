@@ -1,4 +1,4 @@
-@@charset "UTF-8";
+@charset "UTF-8";
 
 .clearfix::before,
 .clearfix::after {
@@ -63,13 +63,13 @@
   margin-top: 10px;
 }
 
-.hamburger__list {
+.contact__list {
   margin: 15px;
   background-color: #74cfae;
   border-radius: 2px;
 }
 
-.hamburger__list > li a {
+.list__contents {
   font-size: 12px;
   display: inline-block;
   text-decoration: none;
@@ -102,8 +102,7 @@ h1 {
 }
 
 .wecando {
-  background-color: rgb(115,208,180);
-  filter: saturate(145%);
+  background-color: #74cfae;
   text-align: center;
 }
 
@@ -197,8 +196,7 @@ h1 {
   display: inline-block;
   font-size: 12px;
   color: #fff;
-  background-color: rgb(115,208,180);
-  filter: saturate(145%);
+  background-color: #74cfae;
   padding: 14px 20px;
   cursor: pointer;
 }
@@ -257,29 +255,27 @@ h1 {
   text-align: center;
 }
 
-.sns__box {
+.sns > li {
   padding: 25px 0;
   margin: auto;
 }
 
 .sns {
-  padding: 200px 0 200px;
+  padding: 200px 0;
 }
 
 .icon {
-  color: rgb(115,208,180);
-  filter: saturate(145%);
+  color: #74cfae;
   font-size: 40px;
 }
 
-.sns__box:hover {
+.sns > li:hover {
   background-color: #fff;
 }
 
 .crafted {
   text-align: right;
-  background-color: rgb(115,208,180);
-  filter: saturate(145%);
+  background-color:#74cfae;
   padding: 20px 0 25px;
 }
 
@@ -331,7 +327,7 @@ h1 {
     list-style: none;
   }
 
-  .hamburger__list > li a {
+  .list__contents {
     color: #fff;
     text-decoration: none;
     display: block;
@@ -357,11 +353,11 @@ h1 {
     margin-top: 40px;
   }
 
-  .graph__box > div {
+  .graph__box > li {
     margin-top: 88px;
   }
 
-  .graph__box > div:first-child {
+  .graph__box > li:first-child {
     margin-top: 0;
   }
 
@@ -383,11 +379,11 @@ h1 {
     margin-top: 40px;
   }
 
-  .graph__box > div {
+  .graph__box > li {
     margin-top: 88px;
   }
 
-  .graph__box > div:first-child {
+  .graph__box > li:first-child {
     margin-top: 0;
   }
 
@@ -395,7 +391,7 @@ h1 {
     padding: 200px 0;
   }
 
-  .sns__box {
+  .sns > li {
     display: inline-block;
     width: 185px;
   }
@@ -448,16 +444,16 @@ h1 {
     height: 153px;
   }
 
-  .graph__box > div {
+  .graph__box > li {
     display: inline-block;
     margin-left: 180px;
   }
 
-  .graph__box > div:first-child {
+  .graph__box > li:first-child {
     margin-left: 0;
   }
 
-  .sns__box {
+  .sns > li {
     display: inline-block;
     width: 185px;
   }
